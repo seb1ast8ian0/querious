@@ -2,7 +2,6 @@ import { Log } from "@/entities/Log";
 import { DEBUG, PATH, TOKEN }from "./Constants"
 import logData from "./data/logData.json"
 import fetch from "node-fetch"
-
 const getLogForLogId = async (logId: string) => {
     
     if(DEBUG){
